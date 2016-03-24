@@ -15,6 +15,7 @@
 		FD21DB6F1C953A450028F0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD21DB6D1C953A450028F0E5 /* LaunchScreen.storyboard */; };
 		FD21DB7A1C953A450028F0E5 /* AttributorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21DB791C953A450028F0E5 /* AttributorTests.m */; };
 		FD21DB851C953A450028F0E5 /* AttributorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21DB841C953A450028F0E5 /* AttributorUITests.m */; };
+		FD21DB971C956A820028F0E5 /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD21DB961C956A820028F0E5 /* TextStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FD21DB801C953A450028F0E5 /* AttributorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD21DB841C953A450028F0E5 /* AttributorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributorUITests.m; sourceTree = "<group>"; };
 		FD21DB861C953A450028F0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD21DB951C956A820028F0E5 /* TextStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		FD21DB961C956A820028F0E5 /* TextStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,10 @@
 		FD21DB5E1C953A450028F0E5 /* Attributor */ = {
 			isa = PBXGroup;
 			children = (
-				FD21DB621C953A450028F0E5 /* AppDelegate.h */,
-				FD21DB631C953A450028F0E5 /* AppDelegate.m */,
 				FD21DB651C953A450028F0E5 /* ViewController.h */,
 				FD21DB661C953A450028F0E5 /* ViewController.m */,
+				FD21DB951C956A820028F0E5 /* TextStatsViewController.h */,
+				FD21DB961C956A820028F0E5 /* TextStatsViewController.m */,
 				FD21DB681C953A450028F0E5 /* Main.storyboard */,
 				FD21DB6B1C953A450028F0E5 /* Assets.xcassets */,
 				FD21DB6D1C953A450028F0E5 /* LaunchScreen.storyboard */,
@@ -117,6 +120,8 @@
 		FD21DB5F1C953A450028F0E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FD21DB621C953A450028F0E5 /* AppDelegate.h */,
+				FD21DB631C953A450028F0E5 /* AppDelegate.m */,
 				FD21DB601C953A450028F0E5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -273,6 +278,7 @@
 				FD21DB671C953A450028F0E5 /* ViewController.m in Sources */,
 				FD21DB641C953A450028F0E5 /* AppDelegate.m in Sources */,
 				FD21DB611C953A450028F0E5 /* main.m in Sources */,
+				FD21DB971C956A820028F0E5 /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				FD21DB8B1C953A450028F0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD21DB8C1C953A450028F0E5 /* Build configuration list for PBXNativeTarget "AttributorTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				FD21DB8E1C953A450028F0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD21DB8F1C953A450028F0E5 /* Build configuration list for PBXNativeTarget "AttributorUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				FD21DB911C953A450028F0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
